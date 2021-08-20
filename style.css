@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Atari';
+    src: url('fonts/AtariClassic-gry3.ttf') format('woff2')
+  }
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.grid {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.grid div {
+    height: 30px;
+    width: 30px;
+    
+}
+
+.tetromino {
+    background-color: red;
+}
+
+.mini {
+    margin-left: 60px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.mini div {
+
+    height: 30px;
+    width: 30px;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    border-style: solid;
+    border-color:#70fffa;
+    border-width: 10px;
+    /*background-color: white;*/
+    background: url(Blocks/BG.png);
+    background-repeat: repeat;
+    background-size: 30px 30px;
+    max-height: 600px;
+}
+
+.cntr {
+    margin: auto;
+    font-family: 'Atari', Times, serif;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: white;
+    user-select: none;
+}
